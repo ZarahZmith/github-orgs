@@ -1,20 +1,26 @@
 // use this file for boxing avatars and headings styles and border, background, and rounding
 
 li {
-  border: 1px solid #202F37;
-  border-radius: 20px;
+  border: 1px solid #AAAAAA;
+  border-radius: 12px;
   background-color: #F0F0F0;
   display: flex;
+  padding: 1em;
   align-content: center;
+  margin: .5em;
 
   img {
     width: 10%;
     height: 100%;
-    flex: 0 0 10%;
+    padding: .4em;
   }
 
   h2 {
-    font-size: 5em;
-    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4.3em;
+    font-weight: lighter;
+    margin: 0 .22em;
+    color: #AAAAAA;
+    text-shadow: 2px 2px #FFFFFF;
   }
 }
