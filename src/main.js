@@ -29,6 +29,9 @@ promise.then(function responseHandler(response) {
     });
   } else {
     console.log('Error!!!', response.status);
+    // let errorH1 = document.createElement('h1');
+    // errorH1.innerText = response.statusText;
+    document.querySelector('.error').innerText = response.statusText;
   }
 
 });
