@@ -1,0 +1,24 @@
+ul {
+  display: flex;
+  width: 80%;
+  margin: 1em auto;
+  list-style: none;
+  flex-direction: column;
+  align-content: center;
+  padding: none; }
+
+li {
+  border: 1px solid #202F37;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  display: flex;
+  align-content: center; }
+  li img {
+    width: 10%;
+    height: 100%;
+    flex: 0 0 10%; }
+  li h2 {
+    font-size: 5em;
+    margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */

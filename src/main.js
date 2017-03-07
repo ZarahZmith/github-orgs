@@ -22,8 +22,8 @@ promise.then(function responseHandler(response) {
         orgAvatar.setAttribute('src', organization.avatar_url);
         orgHeading.innerText = organization.login;
         document.querySelector('#organizations ul').appendChild(organizationLi);
-        document.querySelector('#organization'+index).appendChild(orgHeading);
         document.querySelector('#organization'+index).appendChild(orgAvatar);
+        document.querySelector('#organization'+index).appendChild(orgHeading);
 
       });
     });
